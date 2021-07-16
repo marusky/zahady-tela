@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/zahadytela/static/css/main.7e690142.chunk.css",
+    "main.js": "/zahadytela/static/js/main.808feef9.chunk.js",
+    "main.js.map": "/zahadytela/static/js/main.808feef9.chunk.js.map",
+    "runtime-main.js": "/zahadytela/static/js/runtime-main.d7d5d150.js",
+    "runtime-main.js.map": "/zahadytela/static/js/runtime-main.d7d5d150.js.map",
+    "static/js/2.8827ed0d.chunk.js": "/zahadytela/static/js/2.8827ed0d.chunk.js",
+    "static/js/2.8827ed0d.chunk.js.map": "/zahadytela/static/js/2.8827ed0d.chunk.js.map",
+    "static/js/3.2a15302b.chunk.js": "/zahadytela/static/js/3.2a15302b.chunk.js",
+    "static/js/3.2a15302b.chunk.js.map": "/zahadytela/static/js/3.2a15302b.chunk.js.map",
+    "index.html": "/zahadytela/index.html",
+    "static/css/main.7e690142.chunk.css.map": "/zahadytela/static/css/main.7e690142.chunk.css.map",
+    "static/js/2.8827ed0d.chunk.js.LICENSE.txt": "/zahadytela/static/js/2.8827ed0d.chunk.js.LICENSE.txt",
+    "static/media/logo.b7969f47.png": "/zahadytela/static/media/logo.b7969f47.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7d5d150.js",
+    "static/js/2.8827ed0d.chunk.js",
+    "static/css/main.7e690142.chunk.css",
+    "static/js/main.808feef9.chunk.js"
+  ]
+}
