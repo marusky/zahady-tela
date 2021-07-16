@@ -1,0 +1,5 @@
+kolkokrat sa zapne, tolkokrat moze hlasovat. to treba mat osetrene. aby nepribudlo nejakemu timu 150 bodov po jednej otazke.
+ - ulozime do local memory, ze na ktoru otazku uz hlasoval a na tu uz nemoze.
+
+ a ze nech 'resetuje' question screen po otazkach.
+ ale to vlastne sa stane, ked to resetne answer, teda pohodka.

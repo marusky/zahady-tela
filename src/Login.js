@@ -1,35 +1,21 @@
-import React, {useState} from 'react'
-import { collection, addDoc } from "firebase/firestore"
+import React from 'react'
 
 
+const Login = ({setShow, db, setTeam}) => {
 
-const Login = ({setShow, db}) => {
-
-    const addUser = async () => {
-    try {
-      const docRef = await addDoc(collection(db, "users"), {
-        username
-      });
-      console.log("Document written with ID: ", docRef.id);
-    } catch (e) {
-      console.error("Error adding document: ", e);
-    }
-  }
-
-    const [username, setUsername] = useState('')
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        console.log(username);
-        setShow(false)
-        addUser()
+    const handleClick = (team) => {
+      setTeam(team)
+      setShow(false)
     }
     return (
-        
-        <form action="submit" onSubmit={(e) => handleSubmit(e)}>
-            <input type="text" value={username} onChange={(e) => setUsername(e.target.value)}/>
-            <button>log in!</button>
-
-        </form>
+        <section className='login'>
+          <div className='red square' onClick={() => handleClick(1)}>
+            Team 1
+          </div>
+          <div className='blue square' onClick={() => handleClick(2)}>
+            Team 2
+          </div>
+        </section>
     )
 }
 

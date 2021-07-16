@@ -1,38 +1,172 @@
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #65BCC5;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login {
   display: flex;
+  height: 100vh;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.square {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 2em;
+  margin-top: 50px;
+}
+
+.red {
+  background-color: crimson;
+}
+
+.blue {
+  background-color: darkblue;
+}
+
+img {
+  width: 40%;
+}
+
+.logo {
+  position: absolute;
+  background-color: '#65BCC5';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 100vw;
+  text-align: center;
+  color: black;
+}
+
+.question {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.question h3 {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.btn {
+  width: 80%;
+  height: 50px;
+  box-shadow: white 0 0 10px 0px;
+  border: 1px white;
+  border-radius: 15px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.set {
+  box-shadow: yellow 0 0 20px 2px;
+}
+
+.btnSend {
+  margin-top: 5vh;
+  width: 50%;
+  height: 50px;
+  background-color: gainsboro;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-radius: 30px;
+}
+
+.admin {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-wrap: 2;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#1fe4f5, #3fbafe);
+  border-radius: 10px;
   color: white;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.box h1 {
+  font-size: 5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.buttons {
+  width: 150px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(#1fe4f5, #3fbafe);
+  color: white;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 1s;
+  font-size: 30px;
+}
+
+.circle:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.04);
+}
+
+.reset {
+  background: radial-gradient(#76b2fe, #b69efe);
+}
+
+.prev {
+  background: radial-gradient(#fbc1cc, #fa99b2);
+}
+
+.next {
+  background: radial-gradient(#60efbc, #58d5c9);
 }
